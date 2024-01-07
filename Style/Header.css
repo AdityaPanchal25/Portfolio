@@ -1,0 +1,126 @@
+.home_body{
+    color: rgb(46, 14, 14);
+    background-color: black;
+}
+.logo{
+    
+    display: flex;
+    size: 35px;
+    
+
+}
+.body_header{
+padding-left: 0px;
+padding-bottom: 32px;
+    height: 55px;
+    margin-top: 0px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 100;
+
+    background-color:black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px ;
+    border-bottom-color: rgb(235, 232, 232);
+}
+.left_header{
+   display:flex;
+   align-items: center;
+   margin-top: 20px;
+
+}
+.middle_header{
+  
+flex: 1;
+margin-left: 20px;
+margin-left: 0px;
+margin-right: 500px;
+margin-top: 20px;
+max-width: 450px;
+display: flex;
+align-items:center;
+
+}
+.div{
+    margin: 5px;
+}
+.Home_button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(181, 181, 224);
+    cursor: pointer;
+}
+.Home_button:hover{
+    background-color:rgb(67, 188, 228);
+}
+.About_button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color:  rgb(181, 181, 224);
+    cursor: pointer;
+}
+.About_button:hover{
+    background-color:rgb(67, 188, 228);
+}
+
+.Services_button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(181, 181, 224);
+    cursor: pointer;
+}
+.Service_button:hover{
+    background-color:rgb(67, 188, 228);
+}
+
+.Work_button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color:  rgb(181, 181, 224);
+    cursor: pointer;
+}
+.Work_button:hover{
+    background-color:rgb(67, 188, 228);
+}
+
+.Blog_button{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(181, 181, 224);
+    cursor: pointer;
+}
+.Blog_button:hover{
+    background-color:rgb(67, 188, 228);
+}
+
+.contact_button{
+    width: 200px;
+    height: 40px;
+    margin-right:80px;
+    border-radius: 8px;
+    background-color: rgb(181, 181, 224);
+    flex: 1;
+    margin-top: 20px;
+    cursor: pointer;
+    /* transition: all .3s ease; */
+}
+.contact_button:hover{
+    background-color:rgb(67, 188, 228);
+}

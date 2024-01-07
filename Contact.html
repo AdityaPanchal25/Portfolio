@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Contact Page
+        </title>
+        <link rel="stylesheet" href="Style/Contact.css">
+        
+    </head>
+    <body class="body">
+        <div  class="div_linkedin">
+            <img src="Imegas/Linked_logo.png" class="Linked_logo">
+            <Button class="linkedin" id="operLinkedin" onclick="openlink()">linkedin</Button>
+      <script>
+    document.getElementById("operLinkedin").addEventListener("click",function(){
+        window.location = this.href="https://www.linkedin.com/in/aditya-panchal-34a334251/";
+    })
+</script>
+        </div>
+        <div  class="div_GitHub">
+         
+<img src="Imegas/github-logo-icon.jpg" class="github-logo-icon">
+            <Button class="Git_hub" id="Git_hub" onclick="openlink()">GitHub</Button>
+            <script>
+            document.getElementById("Git_hub").addEventListener("click",function(){
+              window.location = this.href="https://github.com/AdityaPanchal25";
+            })
+            </script>
+        </div>
+        <div>
+            <button class="class_home" id="nav_home">Home</button>
+           <script>
+            document.getElementById("nav_home").addEventListener("click",function(){
+                window.location.href="PortFolio.html"
+            })
+           </script>
+        </div>
+        </div>
+    </body>
+</html>

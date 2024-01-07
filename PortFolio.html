@@ -1,0 +1,102 @@
+
+<html>
+   
+<head>
+    <title> Aditya's PortFolio </title>
+    <link rel="stylesheet" href="Style/Header.css">
+    <link rel="stylesheet" href="Style/Images.css">
+    <link rel="stylesheet" href="Style/Home.css">
+    <link rel="stylesheet" href="Style/Utilitied.css">
+    </head>
+<body class="home_body" style="height: 2000px;">
+
+     <div class="body_header">
+          <div class="left_header">
+                  <img class="logo" src="Icons/logo.JPG" >
+             </div>
+          <div class="middle_header">
+               
+                       <button class="Home_button" ID="Home_Page">Home</button>
+                    <script>
+                         document.getElementById("Home_Page").addEventListener("click",function(){
+                              window.location.href ="PortFolio.html"
+                         })
+                    </script>    
+           
+                        <button class="About_button" id="About_Page">About</button>
+                        <script>
+                         document.getElementById("About_Page").addEventListener("click",function(){
+                              window.location.href ="About.html"
+                         })
+                    </script>
+                          <button class="Services_button" Id="Service_page">Service</button>
+                          <script>
+                              document.getElementById("Service_page").addEventListener("click",function(){
+                                   window.location.href = "Service.html"
+                              })
+                          </script>
+                 
+                  
+                          <button  class="Work_button" id="Work_page">Work</button>
+                          <script>
+                              document.getElementById("Work_page").addEventListener("click",function(){
+                                   window.location.href="Work.html"
+                              })
+                          </script>
+                   
+                          <button class="Blog_button" id="blog">Blog</button>
+                          <script>
+                              document.getElementById("blog").addEventListener("click",function(){
+                                   window.location.href="blog.html"
+                              })
+                          </script>
+                   </div>
+                   <div class="right-hrader">
+                    <button class="contact_button" id="conatct_id">Contact</button>
+                    <script>
+                        document.getElementById("conatct_id").addEventListener("click",function(){
+                             window.location.href="Contact.html"
+                        })
+                    </script>
+               </div>   
+               </div>
+
+</div>
+<div class="Middel_page">
+     <div>
+          <img class="Adity_Image" src="Imegas/Aditya.jpg">
+     </div>
+     <div class="info_middelPage">
+     <h4 class="name_text">Aditya Panchal</h4>
+          <h1 class="profession">Java Developer  </h1>
+          <span class="special">Java-SpringBoot</span>
+     <p class="descriptions">
+          Energetic and passionate college student working towards 
+          Master of Computer Application at Dy Patil Institute of
+           Management and Research, Pune. Aiming to utilize the knowledge 
+           acquired from my coursework and self-study.
+     </p>
+     <div>
+          <button class="dow_cv" id="down_cv">  Download Cv</button>
+          <script>
+               document.getElementById("down_cv").addEventListener("click",function(){
+                  var pdfPath="cv/Aditya_Java_Developer.pdf";
+
+                  var a=document.createElement('a');
+                  a.href=pdfPath;
+                  a.target="_blank";
+                  a.download='Aditya_Java_Developer.pdf';
+                  document.body.appendChild(a);
+                  a.click();
+                  document.body.removeChild(a);
+               })
+          </script>
+        </div>
+     </div>
+
+</div>
+
+
+</body>
+   
+</html>
