@@ -18,3 +18,6 @@ Customization
 Projects: Add or remove projects by editing the projects.json file and updating the project images and descriptions in the projects folder.
 Skills and Experience: Modify the content and styling of the skills and experience sections by editing the corresponding HTML and CSS files.
 Contact Form: Configure the contact form to send inquiries to your preferred email address by updating the sendEmail.js file with your SMTP server details.
+
+![p1](https://github.com/AdityaPanchal25/Portfolio/assets/125076518/df7ddba8-2bda-495d-a12c-5ff8267c8839)
+![p2](https://github.com/AdityaPanchal25/Portfolio/assets/125076518/70bb2001-4dc1-4503-9969-1f5a795410ef)
